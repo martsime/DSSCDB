@@ -19,7 +19,7 @@ before_install:
    - source activate tenv
 
 install:
-    - conda install -q -c rdkit
+    - conda install -q -c rdkit rdkit
     - pip install -r src/requirements.txt
 
 before_script:
